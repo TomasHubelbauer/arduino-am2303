@@ -58,7 +58,10 @@ a PowerShell script on an Intel Nuc computer that's always-on at the house.
 The script reads out the serial output of the Arduino and sends it to a Deno
 Deploy edge function.
 
-The code for the Deno function is here:
+The code for the Deno function follows and the function lives on this URL:
+https://sensor.deno.dev
+
+This is the dashboard link for it: https://dash.deno.com/projects/sensor
 
 ```typescript
 import { serve } from "https://deno.land/std@0.140.0/http/server.ts";
