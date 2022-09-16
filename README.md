@@ -40,7 +40,7 @@ void loop() {
   Serial.println("Temperature: " + String(dht.readTemperature()) + " °C");
   Serial.println("Humidity: " + String(dht.readHumidity()) + " %");
   
-  # Wait for two seconds - the temporal resolution of the sensor
+  // Wait for two seconds - the temporal resolution of the sensor
   delay(2000);
 }
 ```
